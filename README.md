@@ -1,63 +1,87 @@
-# Neely Food - Windows Forms Project
+## Neely Food - Windows Forms Project
 
 **Course:** Windows Programming in C#  
 **Team Leader:** Khadega Sadeq Ahmed Aldabi  
 **Team Members:** Khadega, Ansam, Rawan, Rafa  
 
-## Project Overview
-Neely Food is a Windows Forms application for managing a home-based food business. The application supports Admin and Customer functionalities, including viewing, managing, and tracking orders, as well as sales summaries.  
+---
 
-**Technologies Used:**  
+## 📌 Project Overview
+Neely Food is a Windows Forms application designed to manage a home-based food business.  
+The system supports both **Admin** and **Customer** roles, allowing the management of menu items, orders, users, and sales reports.
+
+### 🛠️ Technologies Used
 - Windows Forms (.NET Framework / .NET 6+)  
 - C#  
 - SQL Server  
-- Entity Framework 6 (EF Core for database management)  
+- Entity Framework 6 / EF Core  
+- GitHub (Version Control)
 
 ---
 
 ## ✅ Completed Tasks
-**By Khadega (Team Leader):**  
-- Implemented `FrmLogin` for user authentication.  
-- Implemented `FrmUsers` for admin and customer management.  
-- Connected project to SQL Server using EF Core.  
-- Set up project structure with models (`User`, `Category`, `MenuItem`, `Order`, `OrderItem`, `AppDbContext`).  
-- Added project logo and initial database connection setup.  
 
-**By Ansam:**  
-- Completed `FrmMenuItems` for CRUD operations on menu items.  
-- Added image upload and category selection for menu items.  
-- Validations on textboxes (numeric and required fields).  
-
-**By Rawan:**  
-- Completed `FrmOrders` for customers to create orders.  
-- Connected order form to database and calculate totals automatically.  
-
-**By Rafa:**  
-- Completed `FrmReports` to generate daily/monthly sales reports.  
-- Added charts for top-selling items and summaries.  
+### **By Khadega (Team Leader):**
+- Implemented `FrmLogin` (Admin/Customer login).  
+- Implemented `FrmRegister` with validation and EF Core connection.  
+- Created project structure and database models:  
+  - `User`, `Category`, `MenuItem`, `Order`, `OrderItem`, `AppDbContext`  
+- Added project logo + initial database configuration.  
+- Tested login flow with temporary welcome messages.
 
 ---
 
-## ⚠️ Tasks Remaining / Pending
-**Khadega:**  
+### **By Ansam:**
+- Completed `FrmMenuItems` for full CRUD operations.  
+- Added image upload and preview functionality.  
+- Added category selection + input validation (required fields / numeric only).  
+
+---
+
+### **By Rawan:**
+- Completed `FrmOrders` for customer order creation.  
+- Connected orders to the database.  
+- Implemented auto total calculation for orders.  
+
+---
+
+### **By Rafa:**
+- Completed `FrmReports` for:  
+  - Daily and monthly sales reports  
+  - Charts for top-selling items  
+- Formatted UI for readability and clean reporting interface.  
+
+---
+
+## ⚠️ Remaining / Pending Tasks
+
+### **Khadega:**
 - Finalize user authentication edge cases.  
-- Merge all forms into a single cohesive workflow.  
-
-**Ansam:**  
-- Validate menu item deletion and update functionality.  
-- Improve UI layout for menu item form.  
-
-**Rawan:**  
-- Add order status updates (Pending, Completed).  
-- Optimize order calculation logic.  
-
-**Rafa:**  
-- Add export options for reports (Excel, PDF).  
-- Add filters for date range in reports.  
+- Implement `FrmUsers` for admin/customer management.  
+- Replace test welcome messages with actual Admin Panel & Customer Panel.  
+- Connect login form to the correct dashboard after authentication.  
 
 ---
 
-## How to Run
-1. Clone the repository:  
+### **Ansam:**
+- Improve UI design and styling for menu items form.  
+- Complete validation for delete/update cases.  
+
+---
+
+### **Rawan:**
+- Add order status options (Pending, Completed).  
+- Improve order tracking and calculation logic.  
+
+---
+
+### **Rafa:**
+- Add report exporting features (Excel, PDF).  
+- Add date-range filters for advanced report generation.  
+
+---
+
+## ▶️ How to Run the Project
+1. Clone the repository:
 ```bash
 git clone https://github.com/khadegasadeq/NeelyFood.git
