@@ -22,6 +22,7 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btOrders = new System.Windows.Forms.Button();
+            this.btnRepert = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,10 +92,22 @@
             this.btOrders.UseVisualStyleBackColor = false;
             this.btOrders.Click += new System.EventHandler(this.btOrders_Click);
             // 
+            // btnRepert
+            // 
+            this.btnRepert.BackColor = System.Drawing.Color.Gold;
+            this.btnRepert.Location = new System.Drawing.Point(187, 367);
+            this.btnRepert.Name = "btnRepert";
+            this.btnRepert.Size = new System.Drawing.Size(253, 40);
+            this.btnRepert.TabIndex = 8;
+            this.btnRepert.Text = "عرض التقارير الشهرية واليومية";
+            this.btnRepert.UseVisualStyleBackColor = false;
+            this.btnRepert.Click += new System.EventHandler(this.btnRepert_Click);
+            // 
             // FrmAdminPanel
             // 
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(623, 461);
+            this.Controls.Add(this.btnRepert);
             this.Controls.Add(this.btOrders);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.btnLogin);
@@ -112,5 +125,6 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Button btOrders;
+        private System.Windows.Forms.Button btnRepert;
     }
 }

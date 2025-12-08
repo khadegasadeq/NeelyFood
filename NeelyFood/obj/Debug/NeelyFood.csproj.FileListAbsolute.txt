@@ -17,3 +17,4 @@ C:\Users\كمبيوتر تعز\documents\visual studio 2013\Projects\NeelyFood\N
 C:\Users\كمبيوتر تعز\documents\visual studio 2013\Projects\NeelyFood\NeelyFood\obj\Debug\NeelyFood.FrmManageUsers.resources
 C:\Users\كمبيوتر تعز\documents\visual studio 2013\Projects\NeelyFood\NeelyFood\obj\Debug\NeelyFood.Forms.FrmMenuItems.resources
 C:\Users\كمبيوتر تعز\documents\visual studio 2013\Projects\NeelyFood\NeelyFood\obj\Debug\NeelyFood.FrmOrders.resources
+C:\Users\كمبيوتر تعز\Documents\Visual Studio 2013\Projects\NeelyFood\NeelyFood\obj\Debug\NeelyFood.FrmReport.resources

@@ -58,5 +58,11 @@ namespace NeelyFood
         
         }
 
+        private void btnRepert_Click(object sender, EventArgs e)
+        {
+            FrmReport frm = new FrmReport();
+            frm.Show();
+        }
+
     }
 }
