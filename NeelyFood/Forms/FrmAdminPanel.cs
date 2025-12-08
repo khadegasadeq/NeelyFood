@@ -33,9 +33,7 @@ namespace NeelyFood
         private void BtnCategories_Click(object sender, EventArgs e)
         {
             MyMenuItems frm = new MyMenuItems();
-            frm.ShowDialog();
-
-            frm.ShowDialog();
+            frm.Show();
         }
 
         private void lblWelcome_Click(object sender, EventArgs e)
